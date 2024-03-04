@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Tour</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li><a class="ctn" href="#">Contact</a></li>
+        </ul>
+        <img src="menu.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Adventure to Explore The World</h2>
+            <div class="line"></div>
+            <h1>TRAVEL TO ENJOY</h1>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+       </div>
+       <div class="row">
+        <div class="col">
+            <img src="sky1.jpeg" alt="">
+            <h4>Ski Camp Malamjaba</h4>
+            <p>Skiing is a very fascinating sport. In Pakistan there are very limited opportunities for this thrilling sport. Malajaba and Nalther provide us an opportunity to enjoy the skiing.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col">
+            <img src="track2.jpeg" alt="">
+            <h4>Tracking Expedition Northern Areas</h4>
+            <p>Beautiful tracks are available all over the Northern areas of Pakistan. Tracking opportunities with all sort of protective gears and equipment are provided.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+       </div>
+       </section>
+
+    <section class="explore">
+        <div class="explore-content">
+    <h1>Explore The World</h1>
+    <div class="line"></div>
+    <p>The world is open for exploration. In Pakistan there are numerous opportunities to explore the beautiful landscapes and also to enjoy the thrilling sports. Come join us to enjoy the adventurous journeys and thrilling sports.</p>
+    <a href="#" class="ctn">Learn More</a></div>
+    </section>
+
+    <section class="tours">
+
+    <div class="row">
+    <div class="col content-col">
+    <h1>Upcoming Tours and Adventures</h1>
+    <div class="line"></div>
+    <p>Many upcoming adventures opportunities are coming. The most fascinating ones include Biking over hilly terrains, Tracking over the mountains and peaks of Northern areas, Skydiving adventures and also walks through lush green meadows.</p>
+    <a href="#" class="ctn">Learn More</a></div>
+    <div class="col image-col">
+    <div class="image-gallery">
+        <img src="bike.jpeg" alt="">
+        <img src="hiking1.jpeg" alt="">
+        <img src="skydiving2.jpeg" alt="">
+        <img src="track1.jpeg" alt="">
+    </div>
+</div>
+</div>
+</section>
+    <section class="footer">
+        <p>Contact: 4200 Chaklala Rawalpindi </p>
+        <p>Copyright 2024 Adventure & Expeditions</p>
+
+    </section>
+    <script>
+        const menuBtn=document.querySelector('.menu-btn')
+        const navLinks=document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()={
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
